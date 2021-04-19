@@ -133,7 +133,7 @@ public class TelaLogin extends javax.swing.JFrame {
         
         if(txtLogin.getText().equals("marvinneves2001@gmail.com") && txtPassword.getText().equals("12345678")){
             
-            JOptionPane.showMessageDialog(null, txtLogin.getText() + "  " txtPassword.getText());
+            JOptionPane.showMessageDialog(null, txtLogin.getText() + "      " + txtPassword.getText());
             
         }else{
             JOptionPane.showMessageDialog(null, "Acesso Negado!!" );
